@@ -284,6 +284,6 @@ ENV MICAPIPE="/opt/micapipe"
 
 RUN sed -i '$isource /opt/freesurfer-6.0.0/SetUpFreeSurfer.sh' $ND_ENTRYPOINT
 
-RUN sed -i '$iexport FIXPATH=/opt/fix && export PATH="${FIXPATH}:${PATH}"' $ND_ENTRYPOINT
+RUN sed -i '$iexport FIXPATH=/opt/fix1.068 && export PATH="${FIXPATH}:${PATH}"' $ND_ENTRYPOINT
 
 ENTRYPOINT ["/neurodocker/startup.sh", "/opt/micapipe/mica-pipe"]
