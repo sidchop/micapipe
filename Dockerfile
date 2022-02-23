@@ -4,9 +4,7 @@
 # Thank you for using Neurodocker. If you discover any issues
 # or ways to improve this software, please submit an issue or
 # pull request on our GitHub repository:
-# 
-#     https://github.com/ReproNim/neurodocker
-# sid added fix version to root
+
 
 FROM ubuntu:bionic-20201119
 
